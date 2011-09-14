@@ -13,7 +13,7 @@ use Template::Toolkit::Simple 0.13 ();
 
 package akefile;
 use Mo;
-our $VERSION = '0.10';
+our $VERSION = '0.02';
 
 use IO::All;
 
