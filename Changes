@@ -1,4 +1,10 @@
 ---
+version: 0.03
+date:    Wed Sep 14 15:29:57 CEST 2011
+changes:
+- Added au++ great idea to support 'perl -make -test' and 'perl -make -install'
+- Released from Liz++ and Wendy++' attic
+---
 version: 0.02
 date:    Wed Sep 14 14:37:34 CEST 2011
 changes:
