@@ -8,12 +8,12 @@
 use 5.006;
 use File::Share 0.01 ();
 use IO::All 0.43 ();
-use Mo 0.22 ();
+use Mo 0.30 ();
 use Template::Toolkit::Simple 0.13 ();
 
 package akefile;
-use Mo;
-our $VERSION = '0.03';
+use Mo qw'default builder';
+our $VERSION = '0.04';
 
 use IO::All;
 
@@ -23,7 +23,7 @@ has data => (builder => 'get_data');
 has target_file => (default => sub {'Makefile.PL'});
 has run_command => (default => sub {"$^X Makefile.PL"});
 
-use XXX;
+# use XXX;
 
 sub import {
     my $pkg = shift;
