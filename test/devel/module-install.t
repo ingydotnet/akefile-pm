@@ -3,7 +3,8 @@ use Cwd;
 use Capture::Tiny qw(capture_merged);
 
 $ENV{PERL5LIB} = Cwd::abs_path('lib');
-chdir 'xt/module-install' or die;
+my $xt = -e 'xt' ? 'xt' : 'test/devel';
+chdir "$xt/module-install" or die;
 
 unlink('Makefile.PL', 'Makefile');
 
