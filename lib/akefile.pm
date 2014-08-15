@@ -5,7 +5,7 @@ use Template::Toolkit::Simple();
 
 package akefile;
 use Mo qw'default builder';
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use IO::All;
 

@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: akefile
-version: 0.05
+version: 0.06
 abstract: Generate a Makefile.PL in your favorite style
 homepage: https://metacpan.org/release/akefile
 
