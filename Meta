@@ -1,19 +1,25 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: akefile
-version: 0.07
+version: 0.08
 abstract: Generate a Makefile.PL in your favorite style
 homepage: https://metacpan.org/release/akefile
-
+language: perl
 license: perl
-copyright: 2011-2014. Ingy döt Net.
+copyright: 2011-2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
+
+devel:
+  git: https://github.com/ingydotnet/akefile-pm
+  bug: https://github.com/ingydotnet/akefile-pm/issues
+  irc: irc.freenode.net#pkg
 
 requires:
   perl: 5.8.1
@@ -22,14 +28,5 @@ requires:
   Mo: 0.30
   Template::Toolkit::Simple: 0.13
 
-devel:
-  git: https://github.com/ingydotnet/akefile-pm
-  bug: https://github.com/ingydotnet/akefile-pm/issues
-  irc: irc.freenode.net#pkg
-
-=cpan:
+=zild:
   libname: akefile
-
-=travis:
-  type: perl
-  irc: irc.freenode.net#pkg
